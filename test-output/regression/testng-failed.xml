@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]">
+  <parameter name="zip" value="a75009"/>
+  <parameter name="country" value="United Kingdom"/>
+  <parameter name="password" value="abc123"/>
+  <parameter name="address" value="Techfios Building"/>
+  <parameter name="phone" value="a231546"/>
+  <parameter name="city" value="Carrolton"/>
+  <parameter name="companyName" value="Techfios"/>
+  <parameter name="dashboardHeaderText" value="Dashboard"/>
+  <parameter name="fullName" value="Excel Projet"/>
+  <parameter name="state" value="TX"/>
+  <parameter name="userName" value="demo@techfios.com"/>
+  <parameter name="email" value="emsexcell@gmail.com"/>
+  <test name="LoginTest(failed)">
+    <parameter name="zip" value="a75009"/>
+    <parameter name="country" value="United Kingdom"/>
+    <parameter name="password" value="abc123"/>
+    <parameter name="address" value="Techfios Building"/>
+    <parameter name="phone" value="a231546"/>
+    <parameter name="city" value="Carrolton"/>
+    <parameter name="companyName" value="Techfios"/>
+    <parameter name="dashboardHeaderText" value="Dashboard"/>
+    <parameter name="fullName" value="Excel Projet"/>
+    <parameter name="state" value="TX"/>
+    <parameter name="userName" value="demo@techfios.com"/>
+    <parameter name="email" value="emsexcell@gmail.com"/>
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="validUserShouldBeAbleToLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [regression] -->
